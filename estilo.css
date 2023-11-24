@@ -1,0 +1,56 @@
+/*cenario*/
+html {
+    cursor: url(imagens/mata_mosca.png) 30 30, auto;
+}
+
+body { /*Sera encaminhado em todos os links html*/
+    background-image: url(imagens/bg.jpg);
+    background-repeat: no-repeat;
+}
+
+/*painel*/
+.painel { /* fundo painel */
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    left: 0px;
+    bottom: 0px;
+    border-top: solid 1px #fff;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.vidas {
+    float: left;
+}
+
+.cronometro {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Dimensoes do mosquito*/
+.mosquito1 {
+    width: 50px;
+    height: 50px;
+}
+
+.mosquito2 {
+    width: 70px;
+    height: 70px;
+}
+
+.mosquito3 {
+    width: 90px;
+    height: 90px;
+}
+
+/*lado de orientacao do mosquito*/
+.ladoA {
+    transform: scaleX(1); /* valor 1 e normal*/
+}
+
+.ladoB {
+    transform: scaleX(-1); /*valor -1 e invertido*/
+}
